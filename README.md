@@ -26,7 +26,7 @@
 Generate a project named `dmmath` and force overwrite existing files:
 
 ```shell
-cmake-init -name dmmath -force=true
+cmake-init -name=dmmath -force=true
 ```
 
 #### Generated File Structure:

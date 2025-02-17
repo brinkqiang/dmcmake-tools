@@ -26,7 +26,7 @@
 生成一个名为 `dmmath` 的项目，强制覆盖已有文件：
 
 ```shell
-cmake-init -name dmmath -force=true
+cmake-init -name=dmmath -force=true
 ```
 
 #### 生成的文件结构：
