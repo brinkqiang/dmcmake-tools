@@ -60,4 +60,4 @@ hello world # 2025
 --- 
 
 🎉 **Summary**:  
-With the `dmgen4cmake` command, you can quickly generate CMake project files and related build scripts. It supports custom project names, paths, and types, and allows you to force overwrite existing files, making project setup and management more convenient! 🚀
+With the `cmake-init` command, you can quickly generate CMake project files and related build scripts. It supports custom project names, paths, and types, and allows you to force overwrite existing files, making project setup and management more convenient! 🚀
