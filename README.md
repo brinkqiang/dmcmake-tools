@@ -8,6 +8,15 @@ dmgen4cmake --help
     -name (project_name) type: string default: "dmcmake"
     -type (project_type lib/exe) type: string default: "exe"
 
-dmgen4cmake -name dmmath -type lib -force=true
+dmgen4cmake -name dmmath -force=true
 
 这个命令将会生成
+│  build.bat
+│  build.sh
+│  CMakeLists.txt
+├─cmake
+│      cmake_uninstall.cmake.in
+│      ModuleCompileOptions.cmake
+│      ModuleImport.cmake
+
+执行 build.bat 或者 build.sh 将会生成工程文件
