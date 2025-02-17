@@ -1,33 +1,35 @@
-### `dmcmake-tools` 使用说明
+### `dmcmake-tools` Usage Guide
 
-#### 命令：`dmgen4cmake --help`
+**English** · [简体中文](./README.zh-CN.md) 
 
-- **-FILTER** (忽略路径)  
-  类型: `string`  
-  默认: `.git;.svn;CMakeFiles`  
+#### Command: `dmgen4cmake --help`
 
-- **-PATH** (需要生成 CMakeLists.txt 的工程路径)  
-  类型: `string`  
-  默认: `""`（即当前工作路径）
+- **-FILTER** (Ignore paths)  
+  Type: `string`  
+  Default: `.git;.svn;CMakeFiles`  
 
-- **-force** (强制生成)  
-  类型: `bool`  
-  默认: `false`
+- **-PATH** (Path to generate the CMakeLists.txt project)  
+  Type: `string`  
+  Default: `""` (current working directory)
 
-- **-name** (项目名称)  
-  类型: `string`  
-  默认: `dmcmake`
+- **-force** (Force generation)  
+  Type: `bool`  
+  Default: `false`
+
+- **-name** (Project name)  
+  Type: `string`  
+  Default: `dmcmake`
 
 ---
 
-#### 示例命令：  
-生成一个名为 `dmmath` 的项目，强制覆盖已有文件：
+#### Example Command:  
+Generate a project named `dmmath` and force overwrite existing files:
 
 ```shell
 dmgen4cmake -name dmmath -force=true
 ```
 
-#### 生成的文件结构：
+#### Generated File Structure:
 
 ```
 │  build.bat
@@ -39,13 +41,13 @@ dmgen4cmake -name dmmath -force=true
 │      ModuleImport.cmake
 ```
 
-#### 执行 `build.bat` 或 `build.sh` 后生成的输出：
+#### Output after running `build.bat` or `build.sh`:
 
 ```
 bin\RelWithDebInfo\main
 ```
 
-输出内容:
+Output content:
 
 ```
 hello world # 2025
@@ -53,5 +55,5 @@ hello world # 2025
 
 --- 
 
-🎉 **总结**:  
-通过 `dmgen4cmake` 命令，可以快速生成 CMake 工程文件和相关构建脚本，支持自定义项目名称、路径和类型，并且可以强制覆盖现有文件，方便项目构建与管理！🚀
+🎉 **Summary**:  
+With the `dmgen4cmake` command, you can quickly generate CMake project files and related build scripts. It supports custom project names, paths, and types, and allows you to force overwrite existing files, making project setup and management more convenient! 🚀
