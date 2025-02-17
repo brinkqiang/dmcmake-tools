@@ -8,4 +8,6 @@ dmgen4cmake --help
     -name (project_name) type: string default: "dmcmake"
     -type (project_type lib/exe) type: string default: "exe"
 
-dmgen4cmake -name dmmath -type lib
+dmgen4cmake -name dmmath -type lib -force=true
+
+这个命令将会生成
