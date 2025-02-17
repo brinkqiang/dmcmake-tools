@@ -2,7 +2,7 @@
 
 **简体中文** · [English](./README.md) 
 
-#### 命令：`dmgen4cmake --help`
+#### 命令：`cmake-init --help`
 
 - **-FILTER** (忽略路径)  
   类型: `string`  
@@ -26,7 +26,7 @@
 生成一个名为 `dmmath` 的项目，强制覆盖已有文件：
 
 ```shell
-dmgen4cmake -name dmmath -force=true
+cmake-init -name dmmath -force=true
 ```
 
 #### 生成的文件结构：
@@ -39,6 +39,10 @@ dmgen4cmake -name dmmath -force=true
 │      cmake_uninstall.cmake.in
 │      ModuleCompileOptions.cmake
 │      ModuleImport.cmake
+```
+
+```shell
+chmod +x build.sh
 ```
 
 #### 执行 `build.bat` 或 `build.sh` 后生成的输出：

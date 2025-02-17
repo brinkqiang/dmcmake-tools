@@ -2,7 +2,7 @@
 
 **English** · [简体中文](./README.zh-CN.md) 
 
-#### Command: `dmgen4cmake --help`
+#### Command: `cmake-init --help`
 
 - **-FILTER** (Ignore paths)  
   Type: `string`  
@@ -26,7 +26,7 @@
 Generate a project named `dmmath` and force overwrite existing files:
 
 ```shell
-dmgen4cmake -name dmmath -force=true
+cmake-init -name dmmath -force=true
 ```
 
 #### Generated File Structure:
@@ -39,6 +39,10 @@ dmgen4cmake -name dmmath -force=true
 │      cmake_uninstall.cmake.in
 │      ModuleCompileOptions.cmake
 │      ModuleImport.cmake
+```
+
+```shell
+chmod +x build.sh
 ```
 
 #### Output after running `build.bat` or `build.sh`:
