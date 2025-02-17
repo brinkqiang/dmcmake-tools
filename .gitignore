@@ -16,3 +16,7 @@ CMakeUserPresets.json
 /cmake/ModuleCompileOptions.cmake
 /cmake/ModuleImport.cmake
 /cmake/cmake_uninstall.cmake.in
+
+build/
+bin/
+.vscode/
