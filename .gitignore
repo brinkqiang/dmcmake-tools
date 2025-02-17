@@ -10,3 +10,9 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+/CMakeLists.txt
+/build.bat
+/build.sh
+/cmake/ModuleCompileOptions.cmake
+/cmake/ModuleImport.cmake
+/cmake/cmake_uninstall.cmake.in
