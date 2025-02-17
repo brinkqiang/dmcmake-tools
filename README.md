@@ -48,7 +48,7 @@ chmod +x build.sh
 #### Output after running `build.bat` or `build.sh`:
 
 ```
-bin\RelWithDebInfo\main
+bin\relwithdebinfo\main
 ```
 
 Output content:
