@@ -3,5 +3,7 @@
 
 #include <iostream>
 int main() {
-    std::cout << add(1, 2) << std::endl;
+    std::cout << "hello world # " << add(2000, 25) << std::endl;
+
+    return 0;
 }
