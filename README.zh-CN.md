@@ -41,7 +41,10 @@ cmake-init -name=dmmath -force=true
 │      ModuleImport.cmake
 ```
 
-##### 如果希望不生成其中的某些文件 比如 build.bat build.sh 可以使用-FILTER=".git;.svn;CMakeFiles;build.bat;build.sh"
+##### 如果希望不生成其中的某些文件 比如 build.bat build.sh 可以使用
+```
+cmake-init -FILTER=".git;.svn;CMakeFiles;build.bat;build.sh"
+```
 
 ```shell
 chmod +x build.sh

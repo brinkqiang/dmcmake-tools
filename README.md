@@ -41,7 +41,10 @@ cmake-init -name=dmmath -force=true
 │      ModuleImport.cmake
 ```
 
-##### If you want to exclude certain files, such as `build.bat` and `build.sh`, you can use `-FILTER=".git;.svn;CMakeFiles;build.bat;build.sh"`.
+##### If you want to exclude certain files, such as `build.bat` and `build.sh`, you can use 
+```
+cmake-init -FILTER=".git;.svn;CMakeFiles;build.bat;build.sh"
+```
 
 
 ```shell
