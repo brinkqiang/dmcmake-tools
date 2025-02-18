@@ -4,9 +4,12 @@
 
 #### Command: `cmake-init --help`
 
-- **-FILTER** (Ignore paths)  
+- **-IN_FILTER** (Ignore paths)  
   Type: `string`  
   Default: `.git;.svn;CMakeFiles`  
+- **-OUT_FILTER** (Ignore paths)  
+  Type: `string`  
+  Default: ``  
 
 - **-PATH** (Path to generate the CMakeLists.txt project)  
   Type: `string`  
@@ -44,7 +47,7 @@ cmake-init -name=dmmath -force=true
 ##### If you want to exclude certain files, such as `build.bat` and `build.sh`, you can use
 
 ```
-cmake-init -FILTER=".git;.svn;CMakeFiles;build.bat;build.sh"
+cmake-init -OUT_FILTER="build.bat;build.sh"
 ```
 
 

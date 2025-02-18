@@ -4,9 +4,12 @@
 
 #### 命令：`cmake-init --help`
 
-- **-FILTER** (忽略路径)  
+- **-IN_FILTER** (忽略路径)  
   类型: `string`  
   默认: `.git;.svn;CMakeFiles`  
+- **-OUT_FILTER** (忽略路径)  
+  类型: `string`  
+  默认: ``  
 
 - **-PATH** (需要生成 CMakeLists.txt 的工程路径)  
   类型: `string`  
@@ -43,7 +46,7 @@ cmake-init -name=dmmath -force=true
 
 ##### 如果希望不生成其中的某些文件 比如 build.bat build.sh 可以使用
 ```
-cmake-init -FILTER=".git;.svn;CMakeFiles;build.bat;build.sh"
+cmake-init -OUT_FILTER="build.bat;build.sh"
 ```
 
 ```shell
