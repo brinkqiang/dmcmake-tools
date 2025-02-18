@@ -9,7 +9,7 @@
   Default: `.git;.svn;CMakeFiles`  
 - **-OUT_FILTER** (Ignore paths)  
   Type: `string`  
-  Default: ``  
+  Default: `""`  
 
 - **-PATH** (Path to generate the CMakeLists.txt project)  
   Type: `string`  

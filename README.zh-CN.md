@@ -9,7 +9,7 @@
   默认: `.git;.svn;CMakeFiles`  
 - **-OUT_FILTER** (忽略路径)  
   类型: `string`  
-  默认: ``  
+  默认: `""`  
 
 - **-PATH** (需要生成 CMakeLists.txt 的工程路径)  
   类型: `string`  
