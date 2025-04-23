@@ -2,6 +2,30 @@
 
 **English** · [简体中文](./README.zh-CN.md) 
 
+## Features
+
+- 🚀 **Auto-generate CMake Project Structure**
+  - Creates standardized CMakeLists.txt with modern CMake practices
+  - Generates build scripts for Windows (build.bat) and Unix-like systems (build.sh)
+  
+- 🔧 **Smart Source Detection**
+  - Automatically scans source directories (src/, test/, etc.)
+  - Supports C++ header/source file detection with proper target linking
+  
+- 🛡️ **Cross-platform Support**
+  - Generates platform-agnostic build configurations
+  - Compatible with Windows (MSVC), Linux (GCC/Clang) and macOS (Clang)
+
+- ⚙️ **Customizable Filters**
+  - `-IN_FILTER`: Exclude specific directories from source detection
+  - `-OUT_FILTER`: Exclude generated build scripts from final output
+
+- 🔄 **Force Overwrite**
+  - `-force=true` option to overwrite existing project files
+  - Preserves existing configurations when not forced
+
+## Basic Usage
+
 #### Set current path to PATH
 
 ```shell

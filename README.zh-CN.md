@@ -1,8 +1,32 @@
 ### `dmcmake-tools` 使用说明
 
-**简体中文** · [English](./README.md) 
+[English](./README.md) · **简体中文**
 
-#### 设置 当前路径到PATH
+## 功能特性
+
+- 🚀 **自动生成CMake项目结构**
+  - 采用现代CMake最佳实践生成标准化工程文件
+  - 自动生成Windows(build.bat)和Unix-like系统(build.sh)构建脚本
+
+- 🔧 **智能源码检测**
+  - 自动扫描src/, test/等源码目录
+  - 支持C++头文件/源文件自动关联
+
+- 🛡️ **跨平台支持**
+  - 生成平台无关的构建配置
+  - 兼容Windows(MSVC)、Linux(GCC/Clang)和macOS(Clang)
+
+- ⚙️ **灵活过滤配置**
+  - `-IN_FILTER`: 排除指定目录的源码检测
+  - `-OUT_FILTER`: 过滤生成的构建脚本
+
+- 🔄 **强制覆盖模式**
+  - `-force=true` 选项可覆盖现有工程文件
+  - 非强制模式保留现有配置
+
+## 基础用法
+
+#### 设置当前路径到PATH
 
 ```shell
 set_path.bat
