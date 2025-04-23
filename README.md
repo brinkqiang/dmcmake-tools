@@ -2,6 +2,12 @@
 
 **English** · [简体中文](./README.zh-CN.md) 
 
+#### Set current path to PATH
+
+```shell
+set_path.bat
+```
+
 #### Command: `cmake-init --help`
 
 - **-IN_FILTER** (Ignore paths)  

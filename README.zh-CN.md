@@ -2,6 +2,12 @@
 
 **简体中文** · [English](./README.md) 
 
+#### 设置 当前路径到PATH
+
+```shell
+set_path.bat
+```
+
 #### 命令：`cmake-init --help`
 
 - **-IN_FILTER** (忽略路径)  
