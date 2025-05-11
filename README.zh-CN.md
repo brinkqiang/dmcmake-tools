@@ -29,7 +29,7 @@
 #### 设置当前路径到PATH
 
 ```shell
-set_path.bat
+install.bat
 ```
 
 #### 命令：`cmake-init --help`
