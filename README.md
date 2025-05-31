@@ -26,10 +26,10 @@
 
 ## Basic Usage
 
-#### Set current path to PATH
+#### Set current path to PATH(admin)
 
 ```shell
-set_path.bat
+install.bat
 ```
 
 #### Command: `cmake-init --help`
