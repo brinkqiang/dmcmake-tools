@@ -56,7 +56,7 @@ install.bat
 ---
 
 #### 示例命令：  
-生成一个名为 `dmmath` 的项目，强制覆盖已有文件：
+在你的项目的根目录执行下面命令, 会生成一个名为 `dmmath` 的项目，强制覆盖已有文件：
 
 ```shell
 cmake-init -name=dmmath -force=true
