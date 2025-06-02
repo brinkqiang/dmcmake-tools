@@ -96,7 +96,7 @@ hello world # 2025
 ```
 
 --- 
-####示例
+#### 示例
 
 <video width="640" height="360" controls>
   <source src="https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init.mp4" type="video/mp4">
