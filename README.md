@@ -96,8 +96,11 @@ hello world # 2025
 ```
 
 --- 
-#### gif示例
-![示例](./images/cmake-init.mp4)
+####示例
+
+<video width="640" height="360" controls>
+  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init.mp4" type="video/mp4">
+</video>
 
 🎉 **总结**:  
 通过 `cmake-init` 命令，可以快速生成 CMake 工程文件和相关构建脚本，支持自定义项目名称、路径和类型，并且可以强制覆盖现有文件，方便项目构建与管理！🚀
