@@ -67,7 +67,7 @@ cmake-init -name=dmmath -force=true
 ```
 │  build.bat                         # windows默认 编译
 │  build.sh                          # unix-like系统 编译
-│  build_mingw.bat                   # win mingw 编译 (用的unix makefile形式)
+│  build_mingw.bat                   # win mingw 编译 (用的Unix Makefiles形式)
 │  build_ninja.bat                   # win ninja 编译
 │  CMakeLists.txt                    # cmake 主配置
 ├─cmake
