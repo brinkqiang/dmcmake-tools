@@ -67,11 +67,15 @@ cmake-init -name=dmmath -force=true
 ```
 │  build.bat
 │  build.sh
+│  build_mingw.bat
+│  build_ninja.bat
 │  CMakeLists.txt
 ├─cmake
 │      cmake_uninstall.cmake.in
 │      ModuleCompileOptions.cmake
 │      ModuleImport.cmake
+|      launch.cmake
+|      launch.json.in
 ```
 
 ##### 如果希望不生成其中的某些文件 比如 build.bat build.sh 可以使用
