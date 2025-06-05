@@ -102,7 +102,7 @@ hello world # 2025
 https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe
 ```
 
-### 安装好之后打开msys2控制台 输入
+##### 安装好之后打开msys2控制台 输入
 ```
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
