@@ -94,6 +94,20 @@ bin\RelWithDebInfo\main
 ```
 hello world # 2025
 ```
+#### 环境设置注意事项
+1. **Windows Visual Studio环境**: 请确保已安装 Visual Studio 和 CMake (设置bin目录到环境变量path中)
+2. **Windows mingw 环境**: 请确保已安装 mingw(推荐用msys2安装) 和 CMake (设置bin目录到环境变量path中, 即命令行可以识别cmake make gcc g++)
+   
+```
+https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe
+```
+
+### 安装好之后打开msys2控制台 输入
+```
+pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+
+copy C:\msys64\ucrt64\bin\mingw32-make.exe C:\msys64\ucrt64\bin\make.exe
+```
 
 --- 
 #### 示例
