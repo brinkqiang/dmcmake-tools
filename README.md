@@ -16,7 +16,7 @@
   - 生成平台无关的构建配置
   - 兼容Windows(MSVC)、Linux(GCC/Clang)和macOS(Clang)
 
-- ⚙️ **灵活过滤配置**
+- ⚙️ **过滤配置**
   - `-IN_FILTER`: 排除指定目录的源码检测
   - `-OUT_FILTER`: 过滤生成的构建脚本
 
