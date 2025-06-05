@@ -65,17 +65,17 @@ cmake-init -name=dmmath -force=true
 #### 生成的文件结构：
 
 ```
-│  build.bat
-│  build.sh
-│  build_mingw.bat
-│  build_ninja.bat
-│  CMakeLists.txt
+│  build.bat                         # windows默认 编译
+│  build.sh                          # unix-like系统 编译
+│  build_mingw.bat                   # win mingw 编译 (用的unix makefile形式)
+│  build_ninja.bat                   # win ninja 编译
+│  CMakeLists.txt                    # cmake 主配置
 ├─cmake
-│      cmake_uninstall.cmake.in
-│      ModuleCompileOptions.cmake
-│      ModuleImport.cmake
-|      launch.cmake
-|      launch.json.in
+│      cmake_uninstall.cmake.in       # 卸载依赖文件
+│      ModuleCompileOptions.cmake     # 常规环境设置
+│      ModuleImport.cmake             # 模块导入接口
+|      launch.cmake                   # cmake vscode 调试接口设置
+|      launch.json.in                 # vscode 调试配置模版
 ```
 
 ##### 如果希望不生成其中的某些文件 比如 build.bat build.sh 可以使用
