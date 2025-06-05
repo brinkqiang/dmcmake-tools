@@ -112,7 +112,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 copy C:\msys64\ucrt64\bin\mingw32-make.exe C:\msys64\ucrt64\bin\make.exe
 ```
-
+3. **默认编译之后生成的vscode调试配置, 有两套, 一套是mingw环境, 一套是vs环境, 启动时请根据自己的需求设置**
 --- 
 #### 示例
 
