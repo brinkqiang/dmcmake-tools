@@ -4,11 +4,11 @@
 
 ## 视频预览
 <video width="640" height="360" controls>
-  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init-win.mp4" type="video/mp4">
+  <source src="images/cmake-init-win.mp4" type="video/mp4">
 </video>
 
 <video width="640" height="360" controls>
-  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init-linux.mp4" type="video/mp4">
+  <source src="images/cmake-init-linux.mp4" type="video/mp4">
 </video>
 
 ## 功能特性
