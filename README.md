@@ -3,9 +3,14 @@
  **简体中文** [English](./README.en.md) ·
 
 ## 视频预览
+<video width="640" height="360" controls>
+  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init-win.mp4" type="video/mp4">
+</video>
 
-- [demo video on windows](https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init-win.mp4)
-- [demo video on linux](https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init-linux.mp4)
+<video width="640" height="360" controls>
+  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init-linux.mp4" type="video/mp4">
+</video>
+
 ## 功能特性
 
 - 🚀 **自动生成CMake项目结构**
