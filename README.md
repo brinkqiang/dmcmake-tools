@@ -27,13 +27,14 @@
 ## 基础用法
 
 #### 设置当前路径到PATH (管理员权限)
-
+win
 ```shell
 install.bat
 ```
 
+linux
 ```shell
-install.sh
+./install.sh
 ```
 
 #### 命令：`cmake-init --help`
