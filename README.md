@@ -32,6 +32,10 @@
 install.bat
 ```
 
+```shell
+install.sh
+```
+
 #### 命令：`cmake-init --help`
 
 - **-IN_FILTER** (忽略路径)  
