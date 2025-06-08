@@ -53,7 +53,7 @@ install.bat
   类型: `string`  
   默认: `dmcmake`
 
-- **-cpp** (C++版本)  
+- **-cpp** (C++版本 支持17/20/23/26)  
   类型: `string`  
   默认: `17`
 
