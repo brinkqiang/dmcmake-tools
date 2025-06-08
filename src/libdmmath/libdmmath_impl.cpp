@@ -20,7 +20,6 @@
 // SOFTWARE.
 
 #include "libdmmath_impl.h"
-#include "dmformat.h"
 
 Cdmmath_impl::Cdmmath_impl()
 {
@@ -39,9 +38,7 @@ void DMAPI Cdmmath_impl::Release(void)
 
 void DMAPI Cdmmath_impl::Test(void)
 {
-    fmt::print("{}\n", "PROJECT_NAME = dmmath");
-    fmt::print("{}\n", "PROJECT_NAME_UP = DMMATH");
-    fmt::print("{}\n", "PROJECT_NAME_LO = dmmath");
+
 }
 
 int DMAPI Cdmmath_impl::Add(int a, int b)
