@@ -3,14 +3,16 @@
  **简体中文** [English](./README.en.md) ·
 
 ## 视频预览 
-- ./images/cmake-init-win.mp4
+- Windows 演示
 <video width="640" height="360" controls>
-  <source src="[./images/cmake-init-win.mp4](https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init-win.mp4)" type="video/mp4">
+  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/master/images/cmake-init-win.mp4" type="video/mp4">
+  您的浏览器不支持 video 标签。
 </video>
 
-- ./images/cmake-init-linux.mp4
+- Linux 演示
 <video width="640" height="360" controls>
-  <source src="[./images/cmake-init-linux.mp4](https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init-win.mp4)" type="video/mp4">
+  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/master/images/cmake-init-linux.mp4" type="video/mp4">
+  您的浏览器不支持 video 标签。
 </video>
 
 ## 功能特性
