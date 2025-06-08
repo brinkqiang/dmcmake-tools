@@ -6,7 +6,7 @@
 
 - 🚀 **自动生成CMake项目结构**
   - 采用现代CMake最佳实践生成标准化工程文件
-  - 自动生成Windows(build.bat)和Unix-like系统(build.sh)构建脚本
+  - 自动生成Windows(build.bat), Unix-like系统(build.sh), CMakeLists.txt 等构建脚本
 
 - 🔧 **智能源码检测**
   - 自动扫描src/, test/等源码目录
@@ -16,13 +16,13 @@
   - 生成平台无关的构建配置
   - 兼容Windows(MSVC)、Linux(GCC/Clang)和macOS(Clang)
 
-- ⚙️ **灵活过滤配置**
+- ⚙️ **过滤配置**
   - `-IN_FILTER`: 排除指定目录的源码检测
   - `-OUT_FILTER`: 过滤生成的构建脚本
 
 - 🔄 **强制覆盖模式**
   - `-force=true` 选项可覆盖现有工程文件
-  - 非强制模式保留现有配置
+  - 非强制模式会检测CMakeLists.txt是否存在, 防止误操作
 
 ## 基础用法
 
@@ -116,7 +116,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 copy C:\msys64\ucrt64\bin\mingw32-make.exe C:\msys64\ucrt64\bin\make.exe
 ```
-
+3. **默认编译之后生成的vscode调试配置, 有两套, 一套是mingw环境, 一套是vs环境, 启动时请根据自己的需求设置**
 --- 
 #### 示例
 
