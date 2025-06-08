@@ -1,4 +1,4 @@
-
+ï»¿
 // Copyright (c) 2018 brinkqiang (brink.qiang@gmail.com)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,8 +22,8 @@
 #ifndef __DMMATH_H_INCLUDE__
 #define __DMMATH_H_INCLUDE__
 
-#include "dmos.h" // dmos.hÒÑ¾­´¦ÀíÆ½Ì¨Í·ÎÄ¼ş, ÒÔ¼°Ïà¹Øºê¶¨Òå
-#include "dmfix_win_utf8.h" // ´¦Àí winÆ½Ì¨utf8ÎÊÌâ
+#include "dmos.h" // dmos.hå·²ç»å¤„ç†å¹³å°å¤´æ–‡ä»¶, ä»¥åŠç›¸å…³å®å®šä¹‰
+#include "dmfix_win_utf8.h" // å¤„ç† winå¹³å°utf8é—®é¢˜
 
 class Idmmath
 {
