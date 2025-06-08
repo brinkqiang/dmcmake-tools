@@ -2,6 +2,16 @@
 
  **简体中文** [English](./README.en.md) ·
 
+## 视频预览
+<video width="640" height="360" controls>
+  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init-win.mp4" type="video/mp4">
+</video>
+
+<video width="640" height="360" controls>
+  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init-linux.mp4" type="video/mp4">
+</video>
+
+
 ## 功能特性
 
 - 🚀 **自动生成CMake项目结构**
@@ -123,11 +133,6 @@ copy C:\msys64\ucrt64\bin\mingw32-make.exe C:\msys64\ucrt64\bin\make.exe
 ```
 3. **默认编译之后生成的vscode调试配置, 有两套, 一套是mingw环境, 一套是vs环境, 启动时请根据自己的需求设置**
 --- 
-#### 示例
-
-<video width="640" height="360" controls>
-  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/refs/heads/master/images/cmake-init.mp4" type="video/mp4">
-</video>
 
 🎉 **总结**:  
 通过 `cmake-init` 命令，可以快速生成 CMake 工程文件和相关构建脚本，支持自定义项目名称、路径和类型，并且可以强制覆盖现有文件，方便项目构建与管理！🚀
