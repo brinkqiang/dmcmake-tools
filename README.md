@@ -53,13 +53,17 @@ install.bat
   类型: `string`  
   默认: `dmcmake`
 
+- **-cpp** (C++版本)  
+  类型: `string`  
+  默认: `17`
+
 ---
 
 #### 示例命令：  
 在你的项目的根目录执行下面命令, 会生成一个名为 `dmmath` 的项目，强制覆盖已有文件：
 
 ```shell
-cmake-init -name=dmmath -force=true
+cmake-init -name=dmmath -cpp=20 -force=true
 ```
 
 #### 生成的文件结构：
