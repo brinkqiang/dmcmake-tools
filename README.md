@@ -2,18 +2,6 @@
 
  **简体中文** [English](./README.en.md) ·
 
-## 视频预览 
-- Windows 演示
-<video width="640" height="360" controls>
-  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/master/images/cmake-init-win.mp4" type="video/mp4">
-  您的浏览器不支持 video 标签。
-</video>
-
-- Linux 演示
-<video width="640" height="360" controls>
-  <source src="https://github.com/brinkqiang/dmcmake-tools/raw/master/images/cmake-init-linux.mp4" type="video/mp4">
-  您的浏览器不支持 video 标签。
-</video>
 
 ## 功能特性
 
@@ -139,3 +127,53 @@ copy C:\msys64\ucrt64\bin\mingw32-make.exe C:\msys64\ucrt64\bin\make.exe
 
 🎉 **总结**:  
 通过 `cmake-init` 命令，可以快速生成 CMake 工程文件和相关构建脚本，支持自定义项目名称、路径和类型，并且可以强制覆盖现有文件，方便项目构建与管理！🚀
+
+
+## 视频预览 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.responsive-iframe {
+  width: 100%; /* 宽度自适应 */
+  aspect-ratio: 16 / 9; /* 直接定义宽高比 */
+  border: none; /* 移除边框 */
+}
+</style>
+</head>
+<body>
+
+  <h1>linux</h1>
+
+  <iframe 
+    class="responsive-iframe"
+    src="https://player.bilibili.com/player.html?isOutside=true&aid=114648347055343&bvid=BV1tST9zPEBz&cid=30392651593&p=1" 
+    allowfullscreen="true">
+  </iframe>
+
+</body>
+</html>
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+.responsive-iframe {
+  width: 100%; /* 宽度自适应 */
+  aspect-ratio: 16 / 9; /* 直接定义宽高比 */
+  border: none; /* 移除边框 */
+}
+</style>
+</head>
+<body>
+
+  <h1>windows</h1>
+
+  <iframe 
+    class="responsive-iframe"
+    src="https://player.bilibili.com/player.html?isOutside=true&aid=114648347054256&bvid=BV1tST9zPEZL&cid=30392648657&p=1" 
+    allowfullscreen="true">
+  </iframe>
+
+</body>
+</html>
