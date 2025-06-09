@@ -8,6 +8,8 @@ int main() {
     if(math)
     {
         std::cout << "hello world # " << math->Add(2000, 25) << std::endl;
+
+        math->Release();
     }
 
     return 0;
