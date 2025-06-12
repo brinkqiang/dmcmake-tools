@@ -37,6 +37,9 @@ linux
 ```shell
 ./install.sh
 ```
+#### 命令：`dmcmakeinfo <path_to_cmake_project>`
+
+- 用于简单分析cmake项目结构
 
 #### 命令：`cmake-init --help`
 
